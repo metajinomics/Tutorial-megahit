@@ -20,7 +20,7 @@ The Tutorial
 Installation
 ------------
 
-Here is another great resource. 'this tutorial <https://github.com/ctb/2014-megahit-evaluation>;
+Here is another great resource. 'this tutorial <https://github.com/ctb/2014-megahit-evaluation>'
 
 Let's go to the root directory::
 
@@ -67,7 +67,7 @@ Assembling::
 
 Evaluating assembly
 -------------
-Get E. coli reference genome::
+Get E coli reference genome::
 
 	curl -O https://s3.amazonaws.com/public.ged.msu.edu/ecoliMG1655.fa.gz
 	gunzip ecoliMG1655.fa.gz
