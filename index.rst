@@ -61,7 +61,7 @@ Assemby reads
 
 Assembling::
 
-    /root/megahit/megahit --cpu-only -m 1e9 -l 250 -r Ecoli/ecoli_ref-5m.fastq.gz -o megahit_5m
+    /root/megahit/megahit --cpu-only -m 1e9 -l 250 -r ecoli_ref-5m.fastq.gz -o megahit_5m
 
 
 
