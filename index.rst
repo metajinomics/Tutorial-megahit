@@ -12,7 +12,7 @@ See the github repo:
 https://github.com/voutcn/megahit
 
 And these articles::
-#. 
+#. Li, D., Liu, C. M., Luo, R., Sadakane, K., & Lam, T. W. (2015). MEGAHIT: An ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph. Bioinformatics, btv033. doi:10.1093/bioinformatics/btv033
 
 The Tutorial
 ------------
@@ -67,19 +67,23 @@ Assembling::
 
 Evaluating assembly
 -------------
+
 Get E coli reference genome::
 
 	curl -O https://s3.amazonaws.com/public.ged.msu.edu/ecoliMG1655.fa.gz
 	gunzip ecoliMG1655.fa.gz
 	
 Install quast::
+
 	cd /root
 	curl -O -L https://downloads.sourceforge.net/project/quast/quast-2.3.tar.gz
 	tar xzf quast-2.3.tar.gz
 	
 Run quast::
+
 	cd /mnt/Ecoli
 	/root/quast-2.3/quast.py -R Ecoli/ecoliMG1655.fa megahit_5m/final.contigs.fa -o quast_5m
+
 
 
 And that's it!  
