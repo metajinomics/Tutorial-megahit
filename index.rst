@@ -56,7 +56,7 @@ Download sample file::
 	curl -O https://s3.amazonaws.com/public.ged.msu.edu/ecoli_ref-5m.fastq.gz
 
 
-Merging reads
+Assemby reads
 -------------
 
 Assembling::
@@ -65,7 +65,7 @@ Assembling::
 
 
 
-QC assembly
+Evaluating assembly
 -------------
 Get E. coli reference genome::
 
@@ -73,8 +73,12 @@ Get E. coli reference genome::
 	gunzip ecoliMG1655.fa.gz
 	
 Install quast::
+	cd /root
+	curl -O -L https://downloads.sourceforge.net/project/quast/quast-2.3.tar.gz
+	tar xzf quast-2.3.tar.gz
 	
 Run quast::
+	cd /mnt/Ecoli
 	/root/quast-2.3/quast.py -R Ecoli/ecoliMG1655.fa megahit_5m/final.contigs.fa -o quast_5m
 
 
