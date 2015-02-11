@@ -20,7 +20,7 @@ The Tutorial
 Installation
 ------------
 
-Here is another great resource. 'this tutorial <https://github.com/ctb/2014-megahit-evaluation>'_
+Here is another great resource. `this tutorial <https://github.com/ctb/2014-megahit-evaluation>`_
 
 Let's go to the root directory::
 
