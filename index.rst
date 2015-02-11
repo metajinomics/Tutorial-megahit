@@ -65,28 +65,10 @@ Assembling::
 
 
 
-Evaluating assembly
--------------
 
-Get E coli reference genome::
-
-	curl -O https://s3.amazonaws.com/public.ged.msu.edu/ecoliMG1655.fa.gz
-	gunzip ecoliMG1655.fa.gz
-	
-Install quast::
-
-	cd /root
-	curl -O -L https://downloads.sourceforge.net/project/quast/quast-2.3.tar.gz
-	tar xzf quast-2.3.tar.gz
-	
-Run quast::
-
-	cd /mnt/Ecoli
-	/root/quast-2.3/quast.py -R Ecoli/ecoliMG1655.fa megahit_5m/final.contigs.fa -o quast_5m
 
 
 
 And that's it!  
-
 
 
